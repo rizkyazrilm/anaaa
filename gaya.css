@@ -1,0 +1,82 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+html {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: black;
+}
+
+.konten{
+    max-width: 500px;
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url("Background.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pp > img {
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.pp > p {
+    font-size: xx-large;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.link > a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    background-color:rgb(240, 248, 255);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 10px 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.link > a:hover {
+    background-color:rgb(187, 208, 226);
+}
+
+.foot {
+    text-align: center;
+}
+
+.foot > i {
+    font-size: 20px;
+}
